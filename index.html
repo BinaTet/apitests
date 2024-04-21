@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Universe Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Explore the Star Wars Universe</h1>
+        <input type="text" id="search-input" placeholder="Search...">
+    </header>
+    
+    <main>
+        <div id="categories">
+            <button onclick="getCharacters()">Characters</button>
+            <button onclick="getFilms()">Films</button>
+            <button onclick="getStarships()">Starships</button>
+            <button onclick="getVehicles()">Vehicles</button>
+            <button onclick="getSpecies()">Species</button>
+            <button onclick="getPlanets()">Planets</button>
+        </div>
+        
+        <ul id="data-list"></ul>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
